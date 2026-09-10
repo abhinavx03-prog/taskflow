@@ -27,8 +27,8 @@ jobs:
         run: python -m pytest -v
 
   docker:
-      name: Build Docker image
-      runs-on: ubuntu-latest
+    name: Build Docker image
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
